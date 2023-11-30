@@ -5,6 +5,9 @@ on: [push]
 
 jobs:
   build:
+	
+    strategy:
+      pyversion: '3.11'
 
     runs-on: ubuntu-latest
 
